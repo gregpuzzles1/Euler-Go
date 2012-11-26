@@ -1,0 +1,19 @@
+I have been learning the Go programming language by doing some of the Project Euler problems. I am now on
+problem 13. It contains an external file with 100 lines of 50 digit numbers. My question is: How can this file
+be read into a Go program and worked with? Does Go have a readlines function? I've read about the io and ioutil
+packages, and about all I can come up with is reading in the file and printing it; however, I am not sure how
+to work with the file... Can it be assigned to a variable? Is there a readlines function, etc...
+
+Any help would be appreaciated.
+
+Here is what I have so far:
+
+package main
+
+import "fmt"
+import "io/ioutil"
+
+func main() {
+	fmt.Println(ioutil.ReadFile("one-hundred_50.txt"))
+}
+

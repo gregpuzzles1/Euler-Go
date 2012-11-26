@@ -1,0 +1,3 @@
+I had to ask two questions on stackoverflow.com to help me solve this problem in Go. Question # 1 was about reading in
+the external file and getting it into a useable form (string). Question # 2 was about the "math/big"
+package. For numbers greater than 2147483647, the big package is needed.
